@@ -61,8 +61,7 @@ Input JSON Structure:
   "employeeName": "John Doe",
   "phoneNumber": "+1234567890",
   "email": "john.doe@example.com",
-  "reportsTo": "manager-id",
-  "profileImage": "https://example.com/john-doe-image.jpg"
+  "reportsTo": "manager-id"
 }
 
 Output:
@@ -72,6 +71,7 @@ Output:
 
 2. Get All Employees
 Endpoint: GET /employees/getAllEmployees
+
 Output:
 [
   {
@@ -79,8 +79,7 @@ Output:
     "employeeName": "John Doe",
     "phoneNumber": "+1234567890",
     "email": "john.doe@example.com",
-    "reportsTo": "manager-id",
-    "profileImage": "https://example.com/john-doe-image.jpg"
+    "reportsTo": "manager-id"
   },
   // ... (other employees)
 ]
@@ -101,8 +100,7 @@ Input JSON Structure:
   "employeeName": "Updated Name",
   "phoneNumber": "+9876543210",
   "email": "updated.email@example.com",
-  "reportsTo": "new-manager-id",
-  "profileImage": "https://example.com/updated-image.jpg"
+  "reportsTo": "new-manager-id"
 }
 
 Output:
@@ -119,9 +117,7 @@ Output:
   "employeeName": "Manager Name",
   "phoneNumber": "+9876543210",
   "email": "manager.email@example.com",
-  "reportsTo": "grand-manager-id",
-  "profileImage": "https://example.com/manager-image.jpg"
-}
+  "reportsTo": "grand-manager-id"
 
 6. Get Employees with Pagination and Sorting
 Endpoint: GET /employees/getEmployeesWithPaginationAndSorting?page={page}&size={size}&sort={sort}
