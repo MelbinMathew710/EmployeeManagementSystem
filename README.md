@@ -55,8 +55,6 @@ spring.data.couchbase.bootstrap-hosts=localhost
 spring.data.couchbase.bucket.name=employee-bucket
 spring.data.couchbase.bucket.password=your-bucket-password
 
-### Hosted URL
-The application is hosted on Heroku. You can access it at Hosted Employee Management System.
 
 ---
 
